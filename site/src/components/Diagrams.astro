@@ -1,0 +1,67 @@
+<script>
+  import { researchDiagramTheme } from '../scripts/mermaid-theme';
+  const sources = [...document.querySelectorAll<HTMLPreElement>('.prose pre[data-language="mermaid"]')];
+  if (sources.length) {
+    const entries = sources.map(source => {
+      const definition = source.textContent || '';
+      source.className = 'mermaid-source';
+      source.removeAttribute('style');
+      source.textContent = definition;
+      const figure = document.createElement('figure');
+      figure.className = 'mermaid-diagram';
+      const label = document.createElement('figcaption');
+      label.className = 'mono';
+      label.textContent = 'RESEARCH WORKFLOW / MERMAID';
+      const output = document.createElement('div');
+      output.className = 'diagram-output';
+      output.setAttribute('aria-live', 'polite');
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = 'View diagram source';
+      source.before(figure);
+      figure.append(label, output, details);
+      details.append(summary, source);
+      // Source stays available when JavaScript imports or rendering fail.
+      details.open = true;
+      return {source: definition, output, details};
+    });
+    async function initializeDiagrams() {
+      try {
+        const { default: mermaid } = await import('mermaid');
+        await document.fonts.ready;
+        let running = false, pending = false, generation = 0;
+        async function renderDiagrams() {
+          pending = true;
+          if (running) return;
+          running = true;
+          try {
+            while (pending) {
+              pending = false;
+              const dark = document.documentElement.dataset.theme === 'dark';
+              mermaid.initialize(researchDiagramTheme(dark));
+              for (const entry of entries) {
+                try {
+                  const valid = await mermaid.parse(entry.source, {suppressErrors: true});
+                  if (!valid) throw new Error('Invalid diagram syntax');
+                  const {svg} = await mermaid.render(`research-diagram-${generation++}`, entry.source);
+                  if (dark !== (document.documentElement.dataset.theme === 'dark')) {pending = true; break;}
+                  entry.output.innerHTML = svg;
+                  entry.details.open = false;
+                } catch {
+                  entry.output.textContent = 'This diagram could not be rendered. Its source is available below.';
+                  entry.details.open = true;
+                }
+              }
+            }
+          } finally {running = false;}
+        }
+        const observer = new MutationObserver(() => void renderDiagrams());
+        observer.observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+        await renderDiagrams();
+      } catch {
+        entries.forEach(entry => {entry.output.textContent = 'Diagram preview is unavailable. Read the source below.';entry.details.open = true;});
+      }
+    }
+    void initializeDiagrams();
+  }
+</script>

@@ -67,3 +67,37 @@ page. The first visit follows the device color scheme; an explicit selection
 is saved in local storage and synchronized between tabs. If storage is blocked,
 the control still works for the current page. Theme selection runs before the
 page paints to avoid flashing the wrong background.
+
+## Images and diagrams
+
+Store article images under `site/public/images/<article-slug>/` and reference them
+in Markdown as `![Descriptive alternative text](/images/<article-slug>/figure.svg)`.
+PNG, JPEG, WebP, and SVG images are supported. Article images scale to the text
+column on smaller screens.
+
+For an optional article banner, add these frontmatter properties:
+
+```yaml
+cover: /images/field-notes/banner.svg
+coverAlt: "Describe the banner for readers using assistive technology."
+coverCaption: "Optional caption."
+```
+
+Use a fenced code block with the language `mermaid` for diagrams. The article
+layout renders them in the browser, follows the selected color theme, and
+provides an expandable source view. Mermaid is bundled locally and loaded only
+when a page has a diagram; it needs no server or external diagram service.
+If rendering is unavailable or syntax is invalid, readers can still access the
+source. See `field-notes.md` for a complete image and diagram example.
+
+### Custom Mermaid palette
+
+Diagram defaults are defined in `site/src/scripts/mermaid-theme.ts`. The light
+and dark palettes match the site's blue process cards, pink decisions, lime
+findings, and monospace type. All diagrams use these defaults automatically.
+For optional semantic highlights in flowcharts, append `:::decision` to a node
+for pink, or `:::finding` for lime. These classes adapt when the theme changes:
+
+```text
+A{Enough evidence?}:::decision --> B[Document findings]:::finding
+```

@@ -1,7 +1,9 @@
 ---
 import Base from './Base.astro';
+import Diagrams from '../components/Diagrams.astro';
 const {frontmatter, headings = []} = Astro.props;
 ---
 <Base title={`${frontmatter.title} — KanakSasak`} description={frontmatter.description}>
-<main id="main" class="article-shell"><div id="top" class="mono"><a href="/#research">← BACK TO THE ARCHIVE</a> / FIELD NOTES</div><header class="article-header"><span class="section-kicker mono">{frontmatter.date} · BY KANAKSASAK</span><h1>{frontmatter.title}</h1><p class="intro">{frontmatter.description}</p></header><div class="article-body-grid"><article class="prose"><slot/><div class="article-end"><a href="/#research">← Explore more research</a></div></article><aside class="article-aside" aria-label="Table of contents"><strong>IN THIS NOTE</strong>{headings.filter((h:{depth:number})=>h.depth===2).map((h:{slug:string;text:string})=><a href={`#${h.slug}`}>{h.text} ↘</a>)}<hr/><a href="https://github.com/KanakSasak" target="_blank" rel="noopener noreferrer">FIND ME ON GITHUB ↗</a></aside></div></main>
+<main id="main" class="article-shell"><div id="top" class="mono"><a href="/#research">← BACK TO THE ARCHIVE</a> / FIELD NOTES</div><header class="article-header"><span class="section-kicker mono">{frontmatter.date} · BY KANAKSASAK</span><h1>{frontmatter.title}</h1><p class="intro">{frontmatter.description}</p></header>{frontmatter.cover && <figure class="article-cover"><img src={frontmatter.cover} alt={frontmatter.coverAlt || ""} width="1600" height="700" fetchpriority="high" />{frontmatter.coverCaption && <figcaption>{frontmatter.coverCaption}</figcaption>}</figure>}<div class="article-body-grid"><article class="prose"><slot/><div class="article-end"><a href="/#research">← Explore more research</a></div></article><aside class="article-aside" aria-label="Table of contents"><strong>IN THIS NOTE</strong>{headings.filter((h:{depth:number})=>h.depth===2).map((h:{slug:string;text:string})=><a href={`#${h.slug}`}>{h.text} ↘</a>)}<hr/><a href="https://github.com/KanakSasak" target="_blank" rel="noopener noreferrer">FIND ME ON GITHUB ↗</a></aside></div></main>
+<Diagrams />
 </Base>
