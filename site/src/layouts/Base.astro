@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+const { title = 'KanakSasak — Cyber Threat Research', description = 'Malware analysis, reverse engineering, AI-driven threat detection, and detection engineering by Lalu Raynaldi Pratama Putra (KanakSasak).' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={description} /><meta name="theme-color" content="#f6f5f0" />
+  <meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>{title}</title>
+  <script is:inline>
+    (() => {
+      let saved;
+      try { saved = localStorage.getItem('kanaksasak-theme'); } catch {}
+      const theme = saved === 'dark' || saved === 'light' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#171916' : '#f6f5f0');
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="KanakSasak home"><span class="brand-icon" aria-hidden="true">▗▚<br/>▞▘</span>KanakSasak<span class="brand-suffix">/ research</span></a>
+    <nav aria-label="Main navigation"><a href="/#research">Research <span>↗</span></a><a href="/#tools">Tools</a><a href="/#about">About</a></nav>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="moon-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.8 13a8.8 8.8 0 0 1-9.8-9.8A9 9 0 1 0 20.8 13Z"/></svg>
+        <svg class="sun-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1m0-15.6-2.1 2.1M6.3 17.7l-2.1 2.1"/></svg>
+        <span class="theme-label">Dark</span>
+      </button>
+      <a class="github-link" href="https://github.com/KanakSasak" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+    </div>
+  </header>
+  <slot />
+  <footer class="site-footer"><a class="brand" href="/">KanakSasak<span class="brand-suffix">/ research</span></a><p>From Lombok, with curiosity.</p><a href="#top">Back to top ↑</a><span>© {new Date().getFullYear()} · Independent research</span></footer>
+  <script>
+    const themeToggle = document.querySelector<HTMLButtonElement>('.theme-toggle')!;
+    const systemTheme = matchMedia('(prefers-color-scheme: dark)');
+    let preference: string | null = null;
+    try { preference = localStorage.getItem('kanaksasak-theme'); } catch {}
+    function applyTheme(theme: 'dark' | 'light') {
+      document.documentElement.dataset.theme = theme;
+      themeToggle.setAttribute('aria-pressed', String(theme === 'dark'));
+      themeToggle.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
+      themeToggle.querySelector('.theme-label')!.textContent = theme === 'dark' ? 'Light' : 'Dark';
+      document.querySelector('meta[name="theme-color"]')!.setAttribute('content', theme === 'dark' ? '#171916' : '#f6f5f0');
+    }
+    applyTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+    themeToggle.addEventListener('click', () => {
+      preference = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      applyTheme(preference);
+      try { localStorage.setItem('kanaksasak-theme', preference); } catch {}
+    });
+    systemTheme.addEventListener('change', event => {
+      if (preference !== 'light' && preference !== 'dark') applyTheme(event.matches ? 'dark' : 'light');
+    });
+    window.addEventListener('storage', event => {
+      if (event.key !== 'kanaksasak-theme' && event.key !== null) return;
+      preference = event.newValue;
+      applyTheme(preference === 'dark' || preference === 'light' ? preference : (systemTheme.matches ? 'dark' : 'light'));
+    });
+  </script>
+</body>
+</html>
