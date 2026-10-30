@@ -1,0 +1,670 @@
+[
+  {
+    "title": "Two Mac Minis, One AI Cluster: Preparing for a Bigger Wave of AI-Assisted Malware",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2026-08-10",
+    "displayDate": "10 AUG 2026",
+    "description": "Exploring an M1–M4 EXO cluster and its implications for AI-assisted malware research.",
+    "href": "https://kanaksasak.medium.com/two-mac-minis-one-ai-cluster-preparing-for-a-bigger-wave-of-ai-assisted-malware-0f3c9afc15d1",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/two-mac-minis-one-ai-cluster-preparing-for-a-bigger-wave-of-ai-assisted-malware-0f3c9afc15d1"
+      }
+    ]
+  },
+  {
+    "title": "Deep-Dive OT Security with Protocol Analysis and Digital Twin Simulation",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2026-07-31",
+    "displayDate": "31 JUL 2026",
+    "description": "Exploring OT security through protocol analysis and digital twin simulation.",
+    "href": "https://kanaksasak.medium.com/deep-dive-ot-security-with-protocol-analysis-and-digital-twin-simulation-ac56cb8de55b",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/deep-dive-ot-security-with-protocol-analysis-and-digital-twin-simulation-ac56cb8de55b"
+      }
+    ]
+  },
+  {
+    "title": "TEOREMA RAHASIA",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2026-07-30",
+    "displayDate": "30 JUL 2026",
+    "description": "Catatan tentang kriptografi dan konsep di balik sebuah rahasia.",
+    "href": "https://kanaksasak.medium.com/teorema-rahasia-c2e55c6edd79",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/teorema-rahasia-c2e55c6edd79"
+      }
+    ]
+  },
+  {
+    "title": "Flare-On 12 Challenge 1: “Drill Baby Drill” — Detailed Writeup",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2026-02-13",
+    "displayDate": "13 FEB 2026",
+    "description": "A detailed reverse-engineering writeup for the first challenge of Flare-On 12.",
+    "href": "https://kanaksasak.medium.com/flare-on-12-challenge-1-drill-baby-drill-detailed-writeup-e49a50295f1e",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/flare-on-12-challenge-1-drill-baby-drill-detailed-writeup-e49a50295f1e"
+      }
+    ]
+  },
+  {
+    "title": "Lua-JIT SmartLoader: Analyzing the GitHub Campaign Delivering Stealer",
+    "category": "Malware analysis",
+    "kind": "Campaign analysis",
+    "date": "2025-12-17",
+    "displayDate": "17 DEC 2025",
+    "description": "Following a GitHub campaign that delivers a stealer through a LuaJIT-based loader.",
+    "href": "https://blog.intellibron.io/lua-jit-smartloader-analyzing-the-github-campaign-delivering-stealer/",
+    "source": "IntelliBroń",
+    "visual": "loader",
+    "tags": [
+      "LUAJIT",
+      "INFOSTEALER"
+    ],
+    "featured": true,
+    "sources": [
+      {
+        "name": "IntelliBroń",
+        "url": "https://blog.intellibron.io/lua-jit-smartloader-analyzing-the-github-campaign-delivering-stealer/"
+      },
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/lua-jit-smartloader-analyzing-the-github-campaign-delivering-stealer-f376274e4c1c"
+      }
+    ]
+  },
+  {
+    "title": "Malware Analysis : HTB Sherlocks Writeup- Loggy",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2025-09-22",
+    "displayDate": "22 SEP 2025",
+    "description": "A malware investigation walkthrough for the Hack The Box Loggy Sherlock.",
+    "href": "https://kanaksasak.medium.com/malware-analysis-htb-sherlocks-writeup-loggy-c0c4da49f68d",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/malware-analysis-htb-sherlocks-writeup-loggy-c0c4da49f68d"
+      }
+    ]
+  },
+  {
+    "title": "Static Analysis of Akira Ransomware",
+    "category": "Malware analysis",
+    "kind": "Reverse engineering",
+    "date": "2025-09-11",
+    "displayDate": "11 SEP 2025",
+    "description": "Examining Akira ransomware through static analysis of its binary and cryptographic routines.",
+    "href": "https://blog.intellibron.io/static-analysis-of-akira-ransomware/",
+    "source": "IntelliBroń",
+    "visual": "akira",
+    "tags": [
+      "RANSOMWARE",
+      "STATIC ANALYSIS"
+    ],
+    "featured": true,
+    "sources": [
+      {
+        "name": "IntelliBroń",
+        "url": "https://blog.intellibron.io/static-analysis-of-akira-ransomware/"
+      },
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/static-analysis-of-akira-ransomware-e5780503c6f2"
+      }
+    ]
+  },
+  {
+    "title": "From Noise to Knowledge - Turning Cyber Threat Data into Actionable Insight with MCP and LLM",
+    "category": "Threat intelligence",
+    "kind": "Threat intelligence",
+    "date": "2025-09-02",
+    "displayDate": "02 SEP 2025",
+    "description": "Turning cyber threat reports into structured intelligence with MCP tools and language models.",
+    "href": "https://blog.intellibron.io/from-noise-to-knowledge-turning-cyber-threat-data-into-actionable-insight-with-mcp-and-llm/",
+    "source": "IntelliBroń",
+    "visual": "signal",
+    "tags": [
+      "THREAT INTELLIGENCE",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "IntelliBroń",
+        "url": "https://blog.intellibron.io/from-noise-to-knowledge-turning-cyber-threat-data-into-actionable-insight-with-mcp-and-llm/"
+      }
+    ]
+  },
+  {
+    "title": "AI and Human Collaboration: Redline Stealer Infection Analysis",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2025-06-18",
+    "displayDate": "18 JUN 2025",
+    "description": "Investigating a Redline Stealer infection through collaboration between human analysts and AI.",
+    "href": "https://blog.intellibron.io/ai-and-human-collaboration-redline-stealer-infection-analysis/",
+    "source": "IntelliBroń",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "IntelliBroń",
+        "url": "https://blog.intellibron.io/ai-and-human-collaboration-redline-stealer-infection-analysis/"
+      }
+    ]
+  },
+  {
+    "title": "Zero Knowledge Proof with ZoKrates",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2025-04-23",
+    "displayDate": "23 APR 2025",
+    "description": "Exploring zero-knowledge proofs and how to work with them using ZoKrates.",
+    "href": "https://blog.intellibron.io/zero-knowledge-proof-with-zokrates/",
+    "source": "IntelliBroń",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "IntelliBroń",
+        "url": "https://blog.intellibron.io/zero-knowledge-proof-with-zokrates/"
+      }
+    ]
+  },
+  {
+    "title": "Shellcode Analysis",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2025-01-02",
+    "displayDate": "02 JAN 2025",
+    "description": "A practical look at shellcode through advanced dynamic malware analysis.",
+    "href": "https://kanaksasak.medium.com/shellcode-analysis-498b5e9f85ff",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/shellcode-analysis-498b5e9f85ff"
+      }
+    ]
+  },
+  {
+    "title": "Maldev : [Evasion] Shellcode Injection and Fileless Execution",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2024-12-25",
+    "displayDate": "25 DEC 2024",
+    "description": "Research notes on shellcode injection and fileless execution using Go.",
+    "href": "https://kanaksasak.medium.com/maldev-evasion-shellcode-injection-and-fileless-execution-b7fd5e120d50",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/maldev-evasion-shellcode-injection-and-fileless-execution-b7fd5e120d50"
+      }
+    ]
+  },
+  {
+    "title": "Malware Analysis : HTB Sherloc OpSalwarKameez24–1: Super-Star",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2024-12-07",
+    "displayDate": "07 DEC 2024",
+    "description": "Working through the evidence in Hack The Box’s OpSalwarKameez24–1: Super-Star Sherlock.",
+    "href": "https://kanaksasak.medium.com/malware-analysis-htb-sherloc-opsalwarkameez24-1-super-star-2f6b1c52e279",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/malware-analysis-htb-sherloc-opsalwarkameez24-1-super-star-2f6b1c52e279"
+      }
+    ]
+  },
+  {
+    "title": "Working with Shellcode from Malware",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2024-11-28",
+    "displayDate": "28 NOV 2024",
+    "description": "Identifying, extracting, and debugging shellcode recovered from malware.",
+    "href": "https://kanaksasak.medium.com/working-with-shellcode-from-malware-bb879385cd95",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/working-with-shellcode-from-malware-bb879385cd95"
+      }
+    ]
+  },
+  {
+    "title": "Zero Knowledge Proof and Modern Blockchain",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2024-11-27",
+    "displayDate": "27 NOV 2024",
+    "description": "An introduction to zero-knowledge proofs and their role in modern blockchain systems.",
+    "href": "https://kanaksasak.medium.com/zero-knowledge-proof-and-modern-blockchain-dc676a71e46e",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/zero-knowledge-proof-and-modern-blockchain-dc676a71e46e"
+      }
+    ]
+  },
+  {
+    "title": "3 Way vs 4 Way Handshake",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2024-11-27",
+    "displayDate": "27 NOV 2024",
+    "description": "Understanding three-way and four-way handshakes, their cryptography, and practical uses.",
+    "href": "https://kanaksasak.medium.com/3-way-vs-4-way-handshake-65b24ac63ca6",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/3-way-vs-4-way-handshake-65b24ac63ca6"
+      }
+    ]
+  },
+  {
+    "title": "Reentrancy Attack on Smart Contract",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2024-11-27",
+    "displayDate": "27 NOV 2024",
+    "description": "Examining reentrancy vulnerabilities in smart contracts.",
+    "href": "https://kanaksasak.medium.com/reentrancy-attack-on-smart-contract-9f07335053f7",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/reentrancy-attack-on-smart-contract-9f07335053f7"
+      }
+    ]
+  },
+  {
+    "title": "Crypt-Ghouls: Unveiling the Shared Arsenal of Hacktivist Groups",
+    "category": "Threat intelligence",
+    "kind": "Threat intelligence",
+    "date": "2024-10-20",
+    "displayDate": "20 OCT 2024",
+    "description": "Exploring the tools and shared infrastructure used by hacktivist groups.",
+    "href": "https://kanaksasak.medium.com/crypt-ghouls-unveiling-the-shared-arsenal-of-hacktivist-groups-5dec4b77800f",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "THREAT INTELLIGENCE",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/crypt-ghouls-unveiling-the-shared-arsenal-of-hacktivist-groups-5dec4b77800f"
+      }
+    ]
+  },
+  {
+    "title": "ClearFake Malware Campaign",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2024-09-19",
+    "displayDate": "19 SEP 2024",
+    "description": "Tracing ClearFake and its use of the EtherHide technique on Binance Smart Chain.",
+    "href": "https://kanaksasak.medium.com/clearfake-malware-campaign-e1f8e63dd30b",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/clearfake-malware-campaign-e1f8e63dd30b"
+      }
+    ]
+  },
+  {
+    "title": "IMSI Catcher Attack and Threat Model on 2G network.",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2024-08-11",
+    "displayDate": "11 AUG 2024",
+    "description": "Research into IMSI catchers, OsmocomBB, and threat models for 2G networks.",
+    "href": "https://kanaksasak.medium.com/imsi-catcher-attack-and-threat-model-on-2g-network-433bb04ad0ce",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/imsi-catcher-attack-and-threat-model-on-2g-network-433bb04ad0ce"
+      }
+    ]
+  },
+  {
+    "title": "TCP1P CTF : Blockchain Callenge Writeup",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2024-07-05",
+    "displayDate": "05 JUL 2024",
+    "description": "A walkthrough of blockchain security challenges from TCP1P CTF.",
+    "href": "https://kanaksasak.medium.com/tcp1p-ctf-blockchain-callenge-writeup-94b7ebe1464c",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/tcp1p-ctf-blockchain-callenge-writeup-94b7ebe1464c"
+      }
+    ]
+  },
+  {
+    "title": "OsmocomBB Setup Dan Konfigurasi Menggunakan Motorola C118",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2024-01-30",
+    "displayDate": "30 JAN 2024",
+    "description": "Panduan setup dan konfigurasi OsmocomBB menggunakan Motorola C118.",
+    "href": "https://kanaksasak.medium.com/osmocombb-setup-dan-konfigurasi-menggunakan-motorola-c118-0c0044bbd9f0",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/osmocombb-setup-dan-konfigurasi-menggunakan-motorola-c118-0c0044bbd9f0"
+      }
+    ]
+  },
+  {
+    "title": "TryHackme : Basic Malware RE — Writeup",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2024-01-16",
+    "displayDate": "16 JAN 2024",
+    "description": "A static-analysis walkthrough of TryHackMe’s Basic Malware RE challenges.",
+    "href": "https://kanaksasak.medium.com/tryhackme-basic-malware-re-writeup-de040999697f",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "MALWARE",
+      "ANALYSIS"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/tryhackme-basic-malware-re-writeup-de040999697f"
+      }
+    ]
+  },
+  {
+    "title": "Mobile Apps Pentesting: Android UnCrackable L2",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2023-09-26",
+    "displayDate": "26 SEP 2023",
+    "description": "An Android reverse-engineering walkthrough of the UnCrackable Level 2 challenge.",
+    "href": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l2-af1292c4db2b",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l2-af1292c4db2b"
+      }
+    ]
+  },
+  {
+    "title": "Mobile Apps Pentesting : Android UnCrackable L1",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2023-09-19",
+    "displayDate": "19 SEP 2023",
+    "description": "An Android reverse-engineering walkthrough of the UnCrackable Level 1 challenge.",
+    "href": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l1-4e962cab3b2",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l1-4e962cab3b2"
+      }
+    ]
+  },
+  {
+    "title": "Encrypting All Files On Windows System with Go",
+    "category": "Malware analysis",
+    "kind": "Malware research",
+    "date": "2023-07-13",
+    "displayDate": "13 JUL 2023",
+    "description": "Examining file encryption on Windows through a Go implementation.",
+    "href": "https://kanaksasak.medium.com/encrypting-all-files-on-windows-system-with-go-7f95ea8922fb",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "GO",
+      "ENCRYPTION"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/encrypting-all-files-on-windows-system-with-go-7f95ea8922fb"
+      }
+    ]
+  },
+  {
+    "title": "Mobile Apps Pentesting",
+    "category": "Security research",
+    "kind": "Security research",
+    "date": "2023-06-24",
+    "displayDate": "24 JUN 2023",
+    "description": "An introduction to mobile application penetration testing and Android APK analysis.",
+    "href": "https://kanaksasak.medium.com/mobile-apps-pentesting-3bc00ee5af20",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "SECURITY",
+      "RESEARCH"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-3bc00ee5af20"
+      }
+    ]
+  },
+  {
+    "title": "Digital Forensic Analysis of Telegram Application on Android as Digital Evidence",
+    "category": "Digital forensics",
+    "kind": "Digital forensics",
+    "date": "2023-06-24",
+    "displayDate": "24 JUN 2023",
+    "description": "Investigating Telegram artifacts on Android as a source of digital evidence.",
+    "href": "https://kanaksasak.medium.com/digital-forensic-analysis-of-telegram-application-on-android-as-digital-evidence-f0abd89d4df0",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "FORENSICS",
+      "EVIDENCE"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/digital-forensic-analysis-of-telegram-application-on-android-as-digital-evidence-f0abd89d4df0"
+      }
+    ]
+  },
+  {
+    "title": "Searchable Symmetric Encryption (SSE) Basic Understanding In Go",
+    "category": "Cryptography",
+    "kind": "Cryptography research",
+    "date": "2023-01-20",
+    "displayDate": "20 JAN 2023",
+    "description": "Exploring searchable symmetric encryption through an implementation in Go.",
+    "href": "https://kanaksasak.medium.com/searchable-symmetric-encryption-sse-basic-understanding-in-go-d6a0e9e88f68",
+    "source": "Medium",
+    "visual": "signal",
+    "tags": [
+      "CRYPTOGRAPHY",
+      "BLOCKCHAIN"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/searchable-symmetric-encryption-sse-basic-understanding-in-go-d6a0e9e88f68"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain Forensics",
+    "category": "Digital forensics",
+    "kind": "Digital forensics",
+    "date": "2023-01-20",
+    "displayDate": "20 JAN 2023",
+    "description": "An introduction to blockchain forensics and tracing on-chain evidence.",
+    "href": "https://kanaksasak.medium.com/blockchain-forensics-707adea5cbbf",
+    "source": "Medium",
+    "visual": "notes",
+    "tags": [
+      "FORENSICS",
+      "EVIDENCE"
+    ],
+    "featured": false,
+    "sources": [
+      {
+        "name": "Medium",
+        "url": "https://kanaksasak.medium.com/blockchain-forensics-707adea5cbbf"
+      }
+    ]
+  }
+]

@@ -1,7 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { research } from '../data/research';
-const topics = ['All research', 'Malware analysis', 'Threat intelligence', 'Field notes'];
+import { research, topics } from '../data/research';
 ---
 <Base>
 <main id="main">
@@ -20,8 +19,8 @@ const topics = ['All research', 'Malware analysis', 'Threat intelligence', 'Fiel
 <section id="research" class="research section-wrap">
   <div class="section-heading"><div><span class="section-kicker mono">01 / THE ARCHIVE</span><h2>Follow the evidence<span class="pink-dot">.</span></h2></div><p>Deep dives, unexpected connections,<br/>and a few things learned the hard way.</p></div>
   <form class="research-controls" role="search" onsubmit="return false"><div class="filter-tabs" aria-label="Filter research by topic">{topics.map((topic,i)=><button type="button" data-filter={topic} aria-pressed={i === 0} class:list={{active:i===0}}>{topic}{i===0 && <span>{research.length.toString().padStart(2,'0')}</span>}</button>)}</div><label class="search"><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="Search the archive" aria-label="Search the research archive"/><kbd>/</kbd></label></form>
-  <p id="result-status" class="sr-only" aria-live="polite">4 articles</p>
-  <div class="article-grid">{research.map((post,i)=><article class="research-card" data-category={post.category} data-search={`${post.title} ${post.description} ${post.tags.join(' ')}`}>
+  <p id="result-status" class="sr-only" aria-live="polite">{research.length} articles</p>
+  <div class="article-grid">{research.map((post,i)=><article class="research-card" data-category={post.category} data-search={`${post.title} ${post.description} ${post.category} ${post.sources?.map(source=>source.name).join(' ') || post.source} ${post.tags.join(' ')}`}>
     <a class={`article-art ${post.visual} ${post.cover ? 'has-cover' : ''}`} href={post.href} target={post.href.startsWith('https')?'_blank':undefined} rel={post.href.startsWith('https')?'noopener noreferrer':undefined} aria-label={`Read ${post.title}`}>
       {post.cover && <img class="card-cover" src={post.cover} alt="" loading="lazy" width="1900" height="828" />}
       <div class="art-top mono"><span>RESEARCH FILE / {String(i+1).padStart(3,'0')}</span><span>↗</span></div>
@@ -31,10 +30,10 @@ const topics = ['All research', 'Malware analysis', 'Threat intelligence', 'Fiel
       {post.visual==='notes' && <div class="notes-art"><span class="mono">~/research/notebook</span><strong>Stay curious<span class="cursor">_</span></strong><span class="mono">&gt; follow the anomaly</span></div>}
       <div class="art-bottom mono"><span>{post.tags[0]}</span><span>{post.featured?'SELECTED RESEARCH':'OPEN FILE ↗'}</span></div>
     </a><div class="card-meta mono"><span>{post.kind}</span>{post.date?<time datetime={post.date}>{post.displayDate}</time>:<span>{post.displayDate}</span>}</div>
-    <h3><a href={post.href} target={post.href.startsWith('https')?'_blank':undefined} rel={post.href.startsWith('https')?'noopener noreferrer':undefined}>{post.title}<span>↗</span></a></h3><p>{post.description}</p><div class="card-footer mono"><span>{post.tags.map(tag=><span class="tag">{tag}</span>)}</span><span>{post.source}{post.href.startsWith('https')?' ↗':''}</span></div>
+    <h3><a href={post.href} target={post.href.startsWith('https')?'_blank':undefined} rel={post.href.startsWith('https')?'noopener noreferrer':undefined}>{post.title}<span>↗</span></a></h3><p>{post.description}</p><div class="card-footer mono"><span>{post.tags.map(tag=><span class="tag">{tag}</span>)}</span><span class="publication-links">{post.sources ? post.sources.map(source=><a href={source.url} target="_blank" rel="noopener noreferrer" aria-label={`Read ${post.title} on ${source.name}`}>{source.name} ↗</a>) : post.source}</span></div>
   </article>)}</div>
   <div id="no-results" hidden><span class="mono">[ NO MATCHES FOUND ]</span><h3>A quiet corner of the archive.</h3><p>Try another search or topic.</p><button type="button" id="clear-search">Reset filters ↗</button></div>
-  <p class="archive-note mono">↗ External research opens at its original publication. New field notes live here.</p>
+  <p class="archive-note mono">Research from IntelliBroń, Medium, and this journal, together in one archive. ↗ External articles open at their original publication.</p>
 </section>
 <section class="tools section-wrap" id="tools"><div class="section-heading"><div><span class="section-kicker mono">02 / BUILT TO INVESTIGATE</span><h2>Tools from the lab<span class="pink-dot">.</span></h2></div><a class="text-link" href="https://github.com/KanakSasak" target="_blank" rel="noopener noreferrer">All repositories ↗</a></div><div class="tool-list">{[
 {name:'procSniper',type:'DETECTION ENGINEERING',description:'Behavioral ransomware prevention with local machine learning.',href:'procSniper',icon:'⌖'},
