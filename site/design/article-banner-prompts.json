@@ -1,0 +1,198 @@
+{
+  "method": "Built-in image_gen",
+  "aspectRatio": "2:1",
+  "assets": [
+    {
+      "slug": "ai-cluster",
+      "path": "public/images/article-banners/ai-cluster.webp",
+      "prompt": "Use case: stylized-concept. Asset: an original editorial banner for the KanakSasak cybersecurity research archive. Create ONE finished standalone landscape image, 1536 by 768 pixels, aspect ratio 2:1. Art direction: sophisticated tactile 3D paper sculpture and frosted-glass laboratory diorama, realistic fine paper grain, precise beveled geometry, restrained cinematic lighting, soft shadows, warm near-black charcoal backdrop (#171916), luminous pastel chartreuse, dusty rose and cool ice-blue accents matching the website. A clear concept and distinctive silhouette, composed across the middle 70% of the wide canvas so the subject survives a slightly tighter card crop. Leave the top and bottom 12% quiet for the website's small metadata overlays. Elegant independent research journal aesthetic. No lettering, no typography, no numbers, no logos, no watermarks, no hooded hacker or skull motifs. This is conceptual editorial artwork, never a screenshot or an operational technical diagram. Article: Two Mac Minis, One AI Cluster: Preparing for a Bigger Wave of AI-Assisted Malware. Subject and composition: Two unmistakable small brushed-aluminum square mini-computers on a charcoal plinth, linked by an elegant icy-blue optical cable, unfolding into a floating translucent neural lattice. One small coral anomaly glows inside the lattice; chartreuse signal points. The computers and neural architecture are the heroes.",
+      "article": "Two Mac Minis, One AI Cluster: Preparing for a Bigger Wave of AI-Assisted Malware"
+    },
+    {
+      "slug": "ot-digital-twin",
+      "path": "public/images/article-banners/ot-digital-twin.webp",
+      "prompt": "Use case: stylized-concept. Asset: an original editorial banner for the KanakSasak cybersecurity research archive. Create ONE finished standalone landscape image, 1536 by 768 pixels, aspect ratio 2:1. Art direction: sophisticated tactile 3D paper sculpture and frosted-glass laboratory diorama, realistic fine paper grain, precise beveled geometry, restrained cinematic lighting, soft shadows, warm near-black charcoal backdrop (#171916), luminous pastel chartreuse, dusty rose and cool ice-blue accents matching the website. A clear concept and distinctive silhouette, composed across the middle 70% of the wide canvas so the subject survives a slightly tighter card crop. Leave the top and bottom 12% quiet for the website's small metadata overlays. Elegant independent research journal aesthetic. No lettering, no typography, no numbers, no logos, no watermarks, no hooded hacker or skull motifs. This is conceptual editorial artwork, never a screenshot or an operational technical diagram. Article: Deep-Dive OT Security with Protocol Analysis and Digital Twin Simulation. Subject and composition: A miniature tactile industrial plant with pipes, a valve, sensor and tank, facing its precise transparent ice-blue wireframe twin across a fine mirror plane. A curved trace of glowing chartreuse protocol packets joins physical plant and digital counterpart. Strong architectural perspective, no screens.",
+      "article": "Deep-Dive OT Security with Protocol Analysis and Digital Twin Simulation"
+    },
+    {
+      "slug": "teorema-rahasia",
+      "path": "public/images/article-banners/teorema-rahasia.webp",
+      "prompt": "Use case: stylized-concept. Asset: an original editorial banner for the KanakSasak cybersecurity research archive. Create ONE finished standalone landscape image, 1536 by 768 pixels, aspect ratio 2:1. Art direction: sophisticated tactile 3D paper sculpture and frosted-glass laboratory diorama, realistic fine paper grain, precise beveled geometry, restrained cinematic lighting, soft shadows, warm near-black charcoal backdrop (#171916), luminous pastel chartreuse, dusty rose and cool ice-blue accents matching the website. A clear concept and distinctive silhouette, composed across the middle 70% of the wide canvas so the subject survives a slightly tighter card crop. Leave the top and bottom 12% quiet for the website's small metadata overlays. Elegant independent research journal aesthetic. No lettering, no typography, no numbers, no logos, no watermarks, no hooded hacker or skull motifs. This is conceptual editorial artwork, never a screenshot or an operational technical diagram. Article: TEOREMA RAHASIA. Subject and composition: An elegant folded ivory paper theorem conceals a luminous chartreuse secret sphere inside a geometric envelope, with translucent violet layers revealing only a tiny aperture. Fine mathematical geometry becomes a sculptural object: a secret revealed by structure rather than written symbols.",
+      "article": "TEOREMA RAHASIA"
+    },
+    {
+      "slug": "flare-on-drill",
+      "path": "public/images/article-banners/flare-on-drill.webp",
+      "prompt": "Use case: stylized-concept. Asset: an original editorial banner for the KanakSasak cybersecurity research archive. Create ONE finished standalone landscape image, 1536 by 768 pixels, aspect ratio 2:1. Art direction: sophisticated tactile 3D paper sculpture and frosted-glass laboratory diorama, realistic fine paper grain, precise beveled geometry, restrained cinematic lighting, soft shadows, warm near-black charcoal backdrop (#171916), luminous pastel chartreuse, dusty rose and cool ice-blue accents matching the website. A clear concept and distinctive silhouette, composed across the middle 70% of the wide canvas so the subject survives a slightly tighter card crop. Leave the top and bottom 12% quiet for the website's small metadata overlays. Elegant independent research journal aesthetic. No lettering, no typography, no numbers, no logos, no watermarks, no hooded hacker or skull motifs. This is conceptual editorial artwork, never a screenshot or an operational technical diagram. Article: Flare-On 12 Challenge 1: Drill Baby Drill — Detailed Writeup. Subject and composition: A precision silver drill bit turning into an intricate coral spiral as it descends through a stack of black and ivory binary-like plates, exposing a single chartreuse crystalline core. Reverse-engineering as a sculptural cutaway, spectacular diagonal composition, controlled paper fragments.",
+      "article": "Flare-On 12 Challenge 1: “Drill Baby Drill” — Detailed Writeup"
+    },
+    {
+      "slug": "smartloader",
+      "path": "public/images/article-banners/smartloader.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An open paper repository box releasing a translucent S-shaped loader pipeline carrying a coral payload capsule through three glass gates.",
+      "article": "Lua-JIT SmartLoader: Analyzing the GitHub Campaign Delivering Stealer"
+    },
+    {
+      "slug": "loggy",
+      "path": "public/images/article-banners/loggy.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A fan of ivory forensic log strips beneath an ice-blue glass magnifier, a single coral anomaly linked to a specimen cube.",
+      "article": "Malware Analysis : HTB Sherlocks Writeup- Loggy"
+    },
+    {
+      "slug": "akira",
+      "path": "public/images/article-banners/akira.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A black binary monolith sliced into floating ivory cross-sections, intertwined coral and lime cryptographic filaments locked through its center.",
+      "article": "Static Analysis of Akira Ransomware"
+    },
+    {
+      "slug": "noise-to-knowledge",
+      "path": "public/images/article-banners/noise-to-knowledge.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Chaotic ivory fragments passing through a rose glass prism and becoming a precise lime evidence constellation.",
+      "article": "From Noise to Knowledge - Turning Cyber Threat Data into Actionable Insight with MCP and LLM"
+    },
+    {
+      "slug": "redline-human-ai",
+      "path": "public/images/article-banners/redline-human-ai.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An ivory human hand and an icy-blue robotic hand collaborating to examine one glowing coral forensic specimen above infection-trace filaments.",
+      "article": "AI and Human Collaboration: Redline Stealer Infection Analysis"
+    },
+    {
+      "slug": "zokrates",
+      "path": "public/images/article-banners/zokrates.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A frosted verification gate receiving a lime crystal proof token, while the violet secret lattice stays concealed behind an ivory wall.",
+      "article": "Zero Knowledge Proof with ZoKrates"
+    },
+    {
+      "slug": "shellcode-analysis",
+      "path": "public/images/article-banners/shellcode-analysis.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A glass memory capsule sliced lengthwise, revealing a tightly coiled coral instruction ribbon beneath a precision analysis probe.",
+      "article": "Shellcode Analysis"
+    },
+    {
+      "slug": "fileless-injection",
+      "path": "public/images/article-banners/fileless-injection.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A coral filament entering the seam of a tall frosted memory slab and becoming an internal luminous lattice, empty paper file sleeves below.",
+      "article": "Maldev : [Evasion] Shellcode Injection and Fileless Execution"
+    },
+    {
+      "slug": "super-star",
+      "path": "public/images/article-banners/super-star.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A suspended five-point forensic star assembled from folded ivory evidence strips and coral circuit traces around an exposed crystalline core.",
+      "article": "Malware Analysis : HTB Sherloc OpSalwarKameez24–1: Super-Star"
+    },
+    {
+      "slug": "extract-shellcode",
+      "path": "public/images/article-banners/extract-shellcode.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Precision steel tweezers lifting a coiled coral instruction ribbon out of a fractured black executable specimen into a glass analysis dish.",
+      "article": "Working with Shellcode from Malware"
+    },
+    {
+      "slug": "zk-blockchain",
+      "path": "public/images/article-banners/zk-blockchain.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Ice-blue blockchain cubes curving around a sealed ivory sphere that releases only one lime verification shard, leaving its secret enclosed.",
+      "article": "Zero Knowledge Proof and Modern Blockchain"
+    },
+    {
+      "slug": "handshakes",
+      "path": "public/images/article-banners/handshakes.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Two communication bridges: three floating rose arches on one bridge, four lime arches on the other, tiny blue packets crossing them.",
+      "article": "3 Way vs 4 Way Handshake"
+    },
+    {
+      "slug": "reentrancy",
+      "path": "public/images/article-banners/reentrancy.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An ivory contract tower with nested chambers, a coral ribbon recursively exiting and re-entering an earlier chamber around lime tokens.",
+      "article": "Reentrancy Attack on Smart Contract"
+    },
+    {
+      "slug": "crypt-ghouls",
+      "path": "public/images/article-banners/crypt-ghouls.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Three different faceted folded-paper geometric silhouettes sharing a central tray of abstract coral and ice-blue circuit tools, evidence threads reveal overlap; no faces or skulls.",
+      "article": "Crypt-Ghouls: Unveiling the Shared Arsenal of Hacktivist Groups"
+    },
+    {
+      "slug": "clearfake",
+      "path": "public/images/article-banners/clearfake.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An immaculate ivory browser-window frame peeling back to expose hidden coral payload capsules fed from underneath by a lime chain of blocks.",
+      "article": "ClearFake Malware Campaign"
+    },
+    {
+      "slug": "imsi-catcher",
+      "path": "public/images/article-banners/imsi-catcher.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A coral radio mast diverting translucent signal rings from an ivory mobile phone away from distant lime legitimate cell towers.",
+      "article": "IMSI Catcher Attack and Threat Model on 2G network."
+    },
+    {
+      "slug": "tcp1p-blockchain",
+      "path": "public/images/article-banners/tcp1p-blockchain.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A sculptural paper labyrinth built on translucent blockchain cubes, with a lime puzzle token approaching a suspended crystalline coral pennant.",
+      "article": "TCP1P CTF : Blockchain Callenge Writeup"
+    },
+    {
+      "slug": "osmocom",
+      "path": "public/images/article-banners/osmocom.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: Exploded view of an unbranded early-2000s candybar mobile phone, physical blank keypad, ice-blue radio board and coral serial cable connected to a lime antenna.",
+      "article": "OsmocomBB Setup Dan Konfigurasi Menggunakan Motorola C118"
+    },
+    {
+      "slug": "basic-malware-re",
+      "path": "public/images/article-banners/basic-malware-re.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A welcoming beginner forensic lab: a dark executable specimen opened into three ivory sections under an oversized ice-blue magnifier, one coral trace.",
+      "article": "TryHackme : Basic Malware RE — Writeup"
+    },
+    {
+      "slug": "uncrackable-l2",
+      "path": "public/images/article-banners/uncrackable-l2.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A frosted smartphone containing two nested glass-and-metal security rings, a precision tool aligning them to expose a coral native-code core.",
+      "article": "Mobile Apps Pentesting: Android UnCrackable L2"
+    },
+    {
+      "slug": "uncrackable-l1",
+      "path": "public/images/article-banners/uncrackable-l1.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An ivory phone case holding one large transparent lock mechanism, a blue forensic lens exposing a coral circuit key hidden behind it.",
+      "article": "Mobile Apps Pentesting : Android UnCrackable L1"
+    },
+    {
+      "slug": "go-file-encryption",
+      "path": "public/images/article-banners/go-file-encryption.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A stream of ivory paper documents folding into sealed charcoal envelopes while passing through a luminous rose encryption ring, lime woven key filament.",
+      "article": "Encrypting All Files On Windows System with Go"
+    },
+    {
+      "slug": "mobile-pentesting",
+      "path": "public/images/article-banners/mobile-pentesting.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An exploded frosted smartphone with an orderly fan of ivory app-layer panels, a coral probe and precise lime circuit paths.",
+      "article": "Mobile Apps Pentesting"
+    },
+    {
+      "slug": "telegram-forensics",
+      "path": "public/images/article-banners/telegram-forensics.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A translucent smartphone releasing folded message envelopes and ice-blue database tiles onto a forensic timeline, traced by a rose lens and lime evidence thread.",
+      "article": "Digital Forensic Analysis of Telegram Application on Android as Digital Evidence"
+    },
+    {
+      "slug": "searchable-encryption",
+      "path": "public/images/article-banners/searchable-encryption.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A glass search lens finding one coral-glowing document inside an aligned archive of sealed locked ivory sleeves using a lime query token.",
+      "article": "Searchable Symmetric Encryption (SSE) Basic Understanding In Go"
+    },
+    {
+      "slug": "blockchain-forensics",
+      "path": "public/images/article-banners/blockchain-forensics.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: A curved trail of translucent transaction blocks on a charcoal evidence table, a rose forensic lens revealing a branching lime transaction path.",
+      "article": "Blockchain Forensics"
+    },
+    {
+      "slug": "git-hook-campaign-v2",
+      "path": "public/images/article-banners/git-hook-campaign-v2.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An open ivory repository folder with a coral hook pulling a paper instruction ribbon toward winding frosted blockchain cubes, a lime lens tracing the anomalous connection.",
+      "article": "Git-Hook Campaign: Incident Analysis and Proactive Blockchain Hunting"
+    },
+    {
+      "slug": "field-notes-v2",
+      "path": "public/images/article-banners/field-notes-v2.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original editorial website article banner. Create ONE standalone finished image, wide landscape 1536 x 768 pixels, 2:1 composition. Tactile sculpted paper and frosted-glass 3D laboratory diorama, exquisite fine grain, beveled forms, restrained cinematic light, soft shadows, warm charcoal (#171916) background. Refined chartreuse, dusty rose, ice-blue and ivory palette coordinated with KanakSasak's research website. Clear striking concept, unique silhouette, main objects across central 70% of frame, quiet top and bottom 12% for small HTML metadata overlays. All elements fully contained inside the image. No words, letters, numbers, labels, logos, watermarks, stock hacker figures, skulls or weapons. Conceptual editorial art, not a technical screenshot. Subject: An open ivory blank research notebook with faint graph lines, coral evidence thread, frosted blue magnifier and a single lime anomaly shard on the crease.",
+      "article": "A notebook for the things that don’t look right"
+    }
+  ]
+}

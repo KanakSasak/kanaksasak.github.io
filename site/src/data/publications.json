@@ -19,7 +19,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/two-mac-minis-one-ai-cluster-preparing-for-a-bigger-wave-of-ai-assisted-malware-0f3c9afc15d1"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/ai-cluster.webp",
+    "coverSmall": "/images/article-banners/ai-cluster-600.webp"
   },
   {
     "title": "Deep-Dive OT Security with Protocol Analysis and Digital Twin Simulation",
@@ -41,7 +43,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/deep-dive-ot-security-with-protocol-analysis-and-digital-twin-simulation-ac56cb8de55b"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/ot-digital-twin.webp",
+    "coverSmall": "/images/article-banners/ot-digital-twin-600.webp"
   },
   {
     "title": "TEOREMA RAHASIA",
@@ -63,7 +67,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/teorema-rahasia-c2e55c6edd79"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/teorema-rahasia.webp",
+    "coverSmall": "/images/article-banners/teorema-rahasia-600.webp"
   },
   {
     "title": "Flare-On 12 Challenge 1: “Drill Baby Drill” — Detailed Writeup",
@@ -85,7 +91,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/flare-on-12-challenge-1-drill-baby-drill-detailed-writeup-e49a50295f1e"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/flare-on-drill.webp",
+    "coverSmall": "/images/article-banners/flare-on-drill-600.webp"
   },
   {
     "title": "Lua-JIT SmartLoader: Analyzing the GitHub Campaign Delivering Stealer",
@@ -111,7 +119,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/lua-jit-smartloader-analyzing-the-github-campaign-delivering-stealer-f376274e4c1c"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/smartloader.webp",
+    "coverSmall": "/images/article-banners/smartloader-600.webp"
   },
   {
     "title": "Malware Analysis : HTB Sherlocks Writeup- Loggy",
@@ -133,7 +143,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/malware-analysis-htb-sherlocks-writeup-loggy-c0c4da49f68d"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/loggy.webp",
+    "coverSmall": "/images/article-banners/loggy-600.webp"
   },
   {
     "title": "Static Analysis of Akira Ransomware",
@@ -159,7 +171,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/static-analysis-of-akira-ransomware-e5780503c6f2"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/akira.webp",
+    "coverSmall": "/images/article-banners/akira-600.webp"
   },
   {
     "title": "From Noise to Knowledge - Turning Cyber Threat Data into Actionable Insight with MCP and LLM",
@@ -181,7 +195,9 @@
         "name": "IntelliBroń",
         "url": "https://blog.intellibron.io/from-noise-to-knowledge-turning-cyber-threat-data-into-actionable-insight-with-mcp-and-llm/"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/noise-to-knowledge.webp",
+    "coverSmall": "/images/article-banners/noise-to-knowledge-600.webp"
   },
   {
     "title": "AI and Human Collaboration: Redline Stealer Infection Analysis",
@@ -203,7 +219,9 @@
         "name": "IntelliBroń",
         "url": "https://blog.intellibron.io/ai-and-human-collaboration-redline-stealer-infection-analysis/"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/redline-human-ai.webp",
+    "coverSmall": "/images/article-banners/redline-human-ai-600.webp"
   },
   {
     "title": "Zero Knowledge Proof with ZoKrates",
@@ -225,7 +243,9 @@
         "name": "IntelliBroń",
         "url": "https://blog.intellibron.io/zero-knowledge-proof-with-zokrates/"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/zokrates.webp",
+    "coverSmall": "/images/article-banners/zokrates-600.webp"
   },
   {
     "title": "Shellcode Analysis",
@@ -247,7 +267,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/shellcode-analysis-498b5e9f85ff"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/shellcode-analysis.webp",
+    "coverSmall": "/images/article-banners/shellcode-analysis-600.webp"
   },
   {
     "title": "Maldev : [Evasion] Shellcode Injection and Fileless Execution",
@@ -269,7 +291,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/maldev-evasion-shellcode-injection-and-fileless-execution-b7fd5e120d50"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/fileless-injection.webp",
+    "coverSmall": "/images/article-banners/fileless-injection-600.webp"
   },
   {
     "title": "Malware Analysis : HTB Sherloc OpSalwarKameez24–1: Super-Star",
@@ -291,7 +315,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/malware-analysis-htb-sherloc-opsalwarkameez24-1-super-star-2f6b1c52e279"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/super-star.webp",
+    "coverSmall": "/images/article-banners/super-star-600.webp"
   },
   {
     "title": "Working with Shellcode from Malware",
@@ -313,7 +339,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/working-with-shellcode-from-malware-bb879385cd95"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/extract-shellcode.webp",
+    "coverSmall": "/images/article-banners/extract-shellcode-600.webp"
   },
   {
     "title": "Zero Knowledge Proof and Modern Blockchain",
@@ -335,7 +363,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/zero-knowledge-proof-and-modern-blockchain-dc676a71e46e"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/zk-blockchain.webp",
+    "coverSmall": "/images/article-banners/zk-blockchain-600.webp"
   },
   {
     "title": "3 Way vs 4 Way Handshake",
@@ -357,7 +387,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/3-way-vs-4-way-handshake-65b24ac63ca6"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/handshakes.webp",
+    "coverSmall": "/images/article-banners/handshakes-600.webp"
   },
   {
     "title": "Reentrancy Attack on Smart Contract",
@@ -379,7 +411,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/reentrancy-attack-on-smart-contract-9f07335053f7"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/reentrancy.webp",
+    "coverSmall": "/images/article-banners/reentrancy-600.webp"
   },
   {
     "title": "Crypt-Ghouls: Unveiling the Shared Arsenal of Hacktivist Groups",
@@ -401,7 +435,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/crypt-ghouls-unveiling-the-shared-arsenal-of-hacktivist-groups-5dec4b77800f"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/crypt-ghouls.webp",
+    "coverSmall": "/images/article-banners/crypt-ghouls-600.webp"
   },
   {
     "title": "ClearFake Malware Campaign",
@@ -423,7 +459,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/clearfake-malware-campaign-e1f8e63dd30b"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/clearfake.webp",
+    "coverSmall": "/images/article-banners/clearfake-600.webp"
   },
   {
     "title": "IMSI Catcher Attack and Threat Model on 2G network.",
@@ -445,7 +483,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/imsi-catcher-attack-and-threat-model-on-2g-network-433bb04ad0ce"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/imsi-catcher.webp",
+    "coverSmall": "/images/article-banners/imsi-catcher-600.webp"
   },
   {
     "title": "TCP1P CTF : Blockchain Callenge Writeup",
@@ -467,7 +507,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/tcp1p-ctf-blockchain-callenge-writeup-94b7ebe1464c"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/tcp1p-blockchain.webp",
+    "coverSmall": "/images/article-banners/tcp1p-blockchain-600.webp"
   },
   {
     "title": "OsmocomBB Setup Dan Konfigurasi Menggunakan Motorola C118",
@@ -489,7 +531,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/osmocombb-setup-dan-konfigurasi-menggunakan-motorola-c118-0c0044bbd9f0"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/osmocom.webp",
+    "coverSmall": "/images/article-banners/osmocom-600.webp"
   },
   {
     "title": "TryHackme : Basic Malware RE — Writeup",
@@ -511,7 +555,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/tryhackme-basic-malware-re-writeup-de040999697f"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/basic-malware-re.webp",
+    "coverSmall": "/images/article-banners/basic-malware-re-600.webp"
   },
   {
     "title": "Mobile Apps Pentesting: Android UnCrackable L2",
@@ -533,7 +579,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l2-af1292c4db2b"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/uncrackable-l2.webp",
+    "coverSmall": "/images/article-banners/uncrackable-l2-600.webp"
   },
   {
     "title": "Mobile Apps Pentesting : Android UnCrackable L1",
@@ -555,7 +603,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-android-uncrackable-l1-4e962cab3b2"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/uncrackable-l1.webp",
+    "coverSmall": "/images/article-banners/uncrackable-l1-600.webp"
   },
   {
     "title": "Encrypting All Files On Windows System with Go",
@@ -577,7 +627,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/encrypting-all-files-on-windows-system-with-go-7f95ea8922fb"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/go-file-encryption.webp",
+    "coverSmall": "/images/article-banners/go-file-encryption-600.webp"
   },
   {
     "title": "Mobile Apps Pentesting",
@@ -599,7 +651,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/mobile-apps-pentesting-3bc00ee5af20"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/mobile-pentesting.webp",
+    "coverSmall": "/images/article-banners/mobile-pentesting-600.webp"
   },
   {
     "title": "Digital Forensic Analysis of Telegram Application on Android as Digital Evidence",
@@ -621,7 +675,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/digital-forensic-analysis-of-telegram-application-on-android-as-digital-evidence-f0abd89d4df0"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/telegram-forensics.webp",
+    "coverSmall": "/images/article-banners/telegram-forensics-600.webp"
   },
   {
     "title": "Searchable Symmetric Encryption (SSE) Basic Understanding In Go",
@@ -643,7 +699,9 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/searchable-symmetric-encryption-sse-basic-understanding-in-go-d6a0e9e88f68"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/searchable-encryption.webp",
+    "coverSmall": "/images/article-banners/searchable-encryption-600.webp"
   },
   {
     "title": "Blockchain Forensics",
@@ -665,6 +723,8 @@
         "name": "Medium",
         "url": "https://kanaksasak.medium.com/blockchain-forensics-707adea5cbbf"
       }
-    ]
+    ],
+    "cover": "/images/article-banners/blockchain-forensics.webp",
+    "coverSmall": "/images/article-banners/blockchain-forensics-600.webp"
   }
 ]

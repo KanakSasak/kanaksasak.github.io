@@ -3,8 +3,8 @@ layout: ../../layouts/Article.astro
 title: A notebook for the things that don’t look right
 description: An introduction to this research space, its subjects, and how to navigate the archive.
 date: '18 OCT 2026'
-cover: /images/field-notes/banner.svg
-coverAlt: "An illustrated research notebook with a signal waveform and investigation notes."
+cover: /images/article-banners/field-notes-v2.webp
+coverAlt: "A sculpted paper research notebook with a magnifying lens, evidence thread, and a glowing anomaly."
 coverCaption: "Field notebook / 001 — an illustration of the research process."
 ---
 

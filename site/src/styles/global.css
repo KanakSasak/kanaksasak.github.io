@@ -32,3 +32,6 @@
 
 /* Keep the larger publication archive usable across screen sizes. */
 .research-controls .filter-tabs{flex:1;min-width:0}.research-controls .search{flex-shrink:0}.research-card{min-width:0}.publication-links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px 12px;text-align:right}.publication-links a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* Preserve each banner's full composition, including on narrow screens. */
+.article-art.has-cover{height:auto;aspect-ratio:2/1}.has-cover .art-top,.has-cover .art-bottom{color:#f6f5f0;text-shadow:0 1px 3px #000b}

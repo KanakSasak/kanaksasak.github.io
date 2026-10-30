@@ -6,7 +6,7 @@ date: '18 OCT 2026'
 category: 'THREAT RESEARCH'
 readingTime: '74 MIN READ'
 tocDepth: 3
-cover: /images/git-hook-campaign/banner.webp
+cover: /images/article-banners/git-hook-campaign-v2.webp
 coverAlt: "Editorial illustration of a developer repository concealing a hook, connected to clusters of blockchain records."
 coverCaption: "Editorial illustration; not incident evidence."
 ---
