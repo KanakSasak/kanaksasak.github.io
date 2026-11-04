@@ -43,6 +43,46 @@ No repository subpath or hosting adapter is needed. Keep `node_modules/`,
 
 Official deployment guide: https://docs.astro.build/en/guides/deploy/github/
 
+## Google discovery and indexing
+
+The production build generates `/sitemap-index.xml` and its sitemap files using
+Astro's sitemap integration. New local pages are included automatically; the
+404 page is excluded and has a `noindex` tag. `/robots.txt` allows crawling and
+points to the sitemap index. Canonical URLs use a consistent trailing slash.
+The homepage and local articles render their text and links as static HTML.
+External publication links remain on their publishers' domains and are not
+included in this site's sitemap.
+
+After deploying these changes:
+
+1. Open https://search.google.com/search-console and add a **URL prefix** property
+   for `https://kanaksasak.github.io/`.
+2. Verify ownership using the **HTML tag** method. Copy only the tag's `content`
+   value into a GitHub repository Actions variable named
+   `PUBLIC_GOOGLE_SITE_VERIFICATION` (**Settings > Secrets and variables > Actions
+   > Variables**). The deployment workflow passes it to Astro at build time.
+   Redeploy, check that the meta tag appears in the live page source, then click
+   **Verify** in Search Console. Keep the variable after verification. For local
+   verification builds, copy `site/.env.example` to `site/.env` and set the value.
+3. In **Sitemaps**, submit `sitemap-index.xml`. Check that Google can read it.
+4. In **URL Inspection**, inspect the homepage and both local articles:
+   `/research/git-hook-campaign/` and `/research/field-notes/`. Use **Test live URL**
+   to check eligibility, then **Request indexing** for each URL.
+5. Monitor **Page indexing** and URL Inspection for the actual exclusion reason,
+   Google-selected canonical, and last crawl. Check **Manual actions** and
+   **Security issues** if Search Console reports problems.
+
+The verification token is public metadata, not a password. Google Analytics
+tracking alone does not submit pages for indexing. A sitemap helps Google
+discover pages but does not guarantee indexing or ranking. Crawling can take
+days to weeks; repeated requests do not speed it up. Link to this blog from
+your GitHub profile and relevant author profiles so readers and crawlers can
+discover it naturally.
+
+Google's guides:
+[request a crawl](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
+and [submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
 ## Theme and writing
 
 The custom theme uses oversized type, an atmospheric signal animation, retro

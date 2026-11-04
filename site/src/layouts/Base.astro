@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
-const { title = 'KanakSasak — Cyber Threat Research', description = 'Malware analysis, reverse engineering, AI-driven threat detection, and detection engineering by Lalu Raynaldi Pratama Putra (KanakSasak).' } = Astro.props;
+const { title = 'KanakSasak — Cyber Threat Research', description = 'Malware analysis, reverse engineering, AI-driven threat detection, and detection engineering by Lalu Raynaldi Pratama Putra (KanakSasak).', type = 'website', image, noindex = false } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const verification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 ---
 <!doctype html>
 <html lang="en">
@@ -15,8 +17,15 @@ const { title = 'KanakSasak — Cyber Threat Research', description = 'Malware a
   </script>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content={description} /><meta name="theme-color" content="#f6f5f0" />
-  <meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
-  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="author" content="Lalu Raynaldi Pratama Putra (KanakSasak)" />
+  {noindex && <meta name="robots" content="noindex" />}
+  {verification && <meta name="google-site-verification" content={verification} />}
+  <meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content={type} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:site_name" content="KanakSasak Research" />
+  {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+  <link rel="canonical" href={canonicalURL} /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
   <title>{title}</title>
   <script is:inline>
     (() => {
